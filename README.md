@@ -1,96 +1,63 @@
-InterMine
-============
-
-Master: [![InterMine CI](https://github.com/intermine/intermine/workflows/InterMine%20CI/badge.svg?branch=master)](https://github.com/intermine/intermine/actions?query=workflow%3A%22InterMine+CI%22)
-Dev: [![InterMine CI](https://github.com/intermine/intermine/workflows/InterMine%20CI/badge.svg?branch=dev)](https://github.com/intermine/intermine/actions?query=workflow%3A%22InterMine+CI%22)
-[![Version](http://img.shields.io/badge/version-5.1.0-blue.svg?style=flat)](https://github.com/intermine/intermine/releases)
-[![License](http://img.shields.io/badge/license-LGPL_2.1-blue.svg?style=flat)](https://github.com/intermine/intermine/blob/master/LICENSE)
-[![Research software impact](http://depsy.org/api/package/pypi/intermine/badge.svg)](http://depsy.org/package/python/intermine)
-[![Conda](https://anaconda.org/anaconda/conda-build/badges/installer/conda.svg)](https://anaconda.org/bioconda/intermine)
-[![Documentation Status](https://readthedocs.org/projects/intermine/badge/?version=latest)](https://intermine.readthedocs.io/en/latest/?badge=latest)
-f
-A powerful open source data warehouse system. InterMine allows users
-to integrate diverse data sources with a minimum of effort, providing
-powerful web-services and an elegant web-application with minimal
-configuration. InterMine powers some of the largest data-warehouses in
-the life sciences, including:
-  * [FlyMine](https://www.flymine.org)
-  * [HumanMine](https://www.humanmine.org)
-  * [MouseMine](http://www.mousemine.org)
-  * [YeastMine](https://yeastmine.yeastgenome.org)
-  * [ZebrafishMine](http://zebrafishmine.org)
-  * [RatMine](http://ratmine.mcw.edu/ratmine/begin.do)
-  * [TargetMine](http://targetmine.mizuguchilab.org/)
-  * [ThaleMine](https://apps.araport.org/thalemine)
-  * [PhytoMine](https://phytozome.jgi.doe.gov/phytomine)
-
-For the full list of InterMines, please see the [registry](http://registry.intermine.org)
-
-For details, please visit: [InterMine Documentation][readthedocs]
-
-If you run an InterMine, or use one in your research, in order to improve the chance of continued funding for the
-project it would be appreciated if groups that use InterMine or parts of InterMine would let us know.
-
-Getting Started With InterMine
--------------------------------
-
-For a guide on getting started with InterMine, please visit:
-[tutorial][tutorial]
-
-3min bootstrap
---------------------------------------
-
-As long as you have the prerequisites installed ([Java][java], [PostgreSQL][psql]), you can get a working data-warehouse and associated web-application by running an automated bootstrap script:
-
-```bash
-  # For the testmodel
-./testmine/setup.sh
-```
-For a genomic application, with test data from Malaria, see [BioTestMine](https://github.com/intermine/biotestmine)
-
-
-Docker
---------------------------------------
-You can build InterMine using Docker. See https://github.com/intermine/docker-intermine-gradle
-
-Copyright and Licence
-------------------------
-
-Copyright (C) 2002-2022 FlyMine
-
-See [LICENSE](LICENSE) file for licensing information.
-
-This product includes software developed by the
-[Apache Software Foundation][apache]
-
-InterMine Development Roadmap
------------------------------
-
-For more information about the upcoming releases, please visit the [InterMine Development Roadmap](http://intermine.org/im-docs/docs/intermine/roadmap/). For the roadmap, please see [here](https://github.com/intermine/intermine/projects/7).
-
-Please cite
-------------------------
-
-**InterMine: extensive web services for modern biology.**<br/>
-*Kalderimis A, Lyne R, Butano D, Contrino S, Lyne M, Heimbach J, Hu F, Smith R,
-Stěpán R, Sullivan J, Micklem G.* <br/>
-[Nucleic Acids Res. 2014 Jul; 42 (Web Server issue): W468-72](https://academic.oup.com/nar/article/42/W1/W468/2435235) <br/>
-[![doi](http://img.shields.io/badge/doi-10.1093%2Fnar%2Fgku301-blue.svg?style=flat)](https://academic.oup.com/nar/article/42/W1/W468/2435235) 
-[![pubmed](http://img.shields.io/badge/pubmed-24753429-blue.svg?style=flat)](http://www.ncbi.nlm.nih.gov/pubmed/24753429)
-
-**InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.**<br/>
-*Smith RN, Aleksic J, Butano D, Carr A, Contrino S, Hu F, Lyne M, Lyne R, Kalderimis A, Rutherford K, Stepan R, Sullivan J, Wakeling M, Watkins X, Micklem G.* <br/>
-[Bioinformatics (2012) 28 (23): 3163-3165.](http://bioinformatics.oxfordjournals.org/content/28/23/3163.abstract) <br/>
-[![doi](http://img.shields.io/badge/doi-10.1093%2Fbioinformatics%2Fbts577-blue.svg?style=flat)](http://bioinformatics.oxfordjournals.org/content/28/23/3163.abstract) 
-[![pubmed](http://img.shields.io/badge/pubmed-23023984-blue.svg?style=flat)](http://www.ncbi.nlm.nih.gov/pubmed/23023984)
-
-See [zotero](https://www.zotero.org/groups/2117194/intermine/) for the full list of InterMine publications.
-
-[travis-badge-master]: https://travis-ci.org/intermine/intermine.svg?branch=master
-[ci]: https://travis-ci.org/intermine/intermine
-[readthedocs]: http://intermine.readthedocs.org/en/latest
-[tutorial]: http://intermine.readthedocs.org/en/latest/get-started/tutorial
-[psql]: http://www.postgresql.org
-[java]: http://openjdk.java.net
-[apache]: http://www.apache.org
-[tomcat]: http://tomcat.apache.org/download-70.cgi
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">国际矿井</font></font></h1><a id="user-content-intermine" class="anchor" aria-label="永久链接：InterMine" href="#intermine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Master: </font></font><a href="https://github.com/intermine/intermine/actions?query=workflow%3A%22InterMine+CI%22"><img src="https://github.com/intermine/intermine/workflows/InterMine%20CI/badge.svg?branch=master" alt="地雷CI" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Dev: </font><font style="vertical-align: inherit;">
+f 一个强大的开源数据仓库系统。</font><font style="vertical-align: inherit;">InterMine 允许用户以最少的努力集成不同的数据源，以最少的配置提供强大的 Web 服务和优雅的 Web 应用程序。</font><font style="vertical-align: inherit;">InterMine 为生命科学领域一些最大的数据仓库提供支持，包括：</font></font><a href="https://github.com/intermine/intermine/actions?query=workflow%3A%22InterMine+CI%22"><img src="https://github.com/intermine/intermine/workflows/InterMine%20CI/badge.svg?branch=dev" alt="地雷CI" style="max-width: 100%;"></a>
+<a href="https://github.com/intermine/intermine/releases"><img src="https://camo.githubusercontent.com/46f349acfa9ba625b21dc3662d9d7caa4987160c898787e3c0362e1c99e431d8/687474703a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d352e312e302d626c75652e7376673f7374796c653d666c6174" alt="版本" data-canonical-src="http://img.shields.io/badge/version-5.1.0-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://github.com/intermine/intermine/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/f0d9a2472d8b35a3483e838eee1f7a85bb8643d2c4df04411a0f85507331d8cb/687474703a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4c47504c5f322e312d626c75652e7376673f7374796c653d666c6174" alt="执照" data-canonical-src="http://img.shields.io/badge/license-LGPL_2.1-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://depsy.org/package/python/intermine" rel="nofollow"><img src="https://camo.githubusercontent.com/b776f32d2ceff460adea13adc302a11fa2370e0f8358e63a88c98e3be70627a0/687474703a2f2f64657073792e6f72672f6170692f7061636b6167652f707970692f696e7465726d696e652f62616467652e737667" alt="研究软件的影响" data-canonical-src="http://depsy.org/api/package/pypi/intermine/badge.svg" style="max-width: 100%;"></a>
+<a href="https://anaconda.org/bioconda/intermine" rel="nofollow"><img src="https://camo.githubusercontent.com/70c38fca6de6c7fd955c2fba2493a03bf09b6e5385f058a965d91fe816294823/68747470733a2f2f616e61636f6e64612e6f72672f616e61636f6e64612f636f6e64612d6275696c642f6261646765732f696e7374616c6c65722f636f6e64612e737667" alt="康达" data-canonical-src="https://anaconda.org/anaconda/conda-build/badges/installer/conda.svg" style="max-width: 100%;"></a>
+<a href="https://intermine.readthedocs.io/en/latest/?badge=latest" rel="nofollow"><img src="https://camo.githubusercontent.com/26dd98741b32bc3bc7aca2feebb223ec9cefac4e75d608a20304365db83195f4/68747470733a2f2f72656164746865646f63732e6f72672f70726f6a656374732f696e7465726d696e652f62616467652f3f76657273696f6e3d6c6174657374" alt="文件状态" data-canonical-src="https://readthedocs.org/projects/intermine/badge/?version=latest" style="max-width: 100%;"></a><font style="vertical-align: inherit;"></font></p>
+<ul dir="auto">
+<li><a href="https://www.flymine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">飞地雷</font></font></a></li>
+<li><a href="https://www.humanmine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人地雷</font></font></a></li>
+<li><a href="http://www.mousemine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">老鼠地雷</font></font></a></li>
+<li><a href="https://yeastmine.yeastgenome.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">酵母矿</font></font></a></li>
+<li><a href="http://zebrafishmine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">斑马鱼矿</font></font></a></li>
+<li><a href="http://ratmine.mcw.edu/ratmine/begin.do" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鼠地雷</font></font></a></li>
+<li><a href="http://targetmine.mizuguchilab.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标矿井</font></font></a></li>
+<li><a href="https://apps.araport.org/thalemine" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">塔勒矿山</font></font></a></li>
+<li><a href="https://phytozome.jgi.doe.gov/phytomine" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">植物碱</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 InterMines 的完整列表，请参阅</font></font><a href="http://registry.intermine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册表</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息请访问：</font></font><a href="http://intermine.readthedocs.org/en/latest" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine文档</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您运行 InterMine，或在您的研究中使用 InterMine，为了提高该项目继续获得资助的机会，如果使用 InterMine 或 InterMine 部分的团体告知我们，我们将不胜感激。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine 入门</font></font></h2><a id="user-content-getting-started-with-intermine" class="anchor" aria-label="永久链接：InterMine 入门" href="#getting-started-with-intermine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 InterMine 入门指南，请访问：
+</font></font><a href="http://intermine.readthedocs.org/en/latest/get-started/tutorial" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3分钟引导</font></font></h2><a id="user-content-3min-bootstrap" class="anchor" aria-label="永久链接：3 分钟引导程序" href="#3min-bootstrap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要您安装了先决条件（</font></font><a href="http://openjdk.java.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="http://www.postgresql.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），您就可以通过运行自动引导脚本来获得工作数据仓库和关联的 Web 应用程序：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>  <span class="pl-c"><span class="pl-c">#</span> For the testmodel</span>
+./testmine/setup.sh</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="  # For the testmodel
+./testmine/setup.sh" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于基因组应用，以及来自 Malaria 的测试数据，请参阅</font></font><a href="https://github.com/intermine/biotestmine"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BioTestMine</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头工人</font></font></h2><a id="user-content-docker" class="anchor" aria-label="永久链接：Docker" href="#docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用 Docker 构建 InterMine。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/intermine/docker-intermine-gradle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/intermine/docker-intermine-gradle</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权和许可</font></font></h2><a id="user-content-copyright-and-licence" class="anchor" aria-label="永久链接：版权和许可" href="#copyright-and-licence"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有 (C) 2002-2022 FlyMine</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关许可信息，请参阅</font></font><a href="/intermine/intermine/blob/dev/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="http://www.apache.org" rel="nofollow"><font style="vertical-align: inherit;">该产品包括由Apache Software Foundation</font></a><font style="vertical-align: inherit;">开发的软件
+</font></font><a href="http://www.apache.org" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine发展路线图</font></font></h2><a id="user-content-intermine-development-roadmap" class="anchor" aria-label="永久链接：InterMine 发展路线图" href="#intermine-development-roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关即将发布的版本的更多信息，请访问</font></font><a href="http://intermine.org/im-docs/docs/intermine/roadmap/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine 开发路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关路线图，请参阅</font></font><a href="https://github.com/intermine/intermine/projects/7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请引用</font></font></h2><a id="user-content-please-cite" class="anchor" aria-label="永久链接：请引用" href="#please-cite"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine：现代生物学的广泛网络服务。</font></font></strong><br>
+<em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kalderimis A、Lyne R、Butano D、Contrino S、Lyne M、Heimbach J、Hu F、Smith R、Stěpán R、Sullivan J、Micklem G。</font></font></em> <br>
+<a href="https://academic.oup.com/nar/article/42/W1/W468/2435235" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">核酸研究。</font><font style="vertical-align: inherit;">2014年7月；</font><font style="vertical-align: inherit;">42（Web 服务器问题）：W468-72</font></font></a> <br>
+<a href="https://academic.oup.com/nar/article/42/W1/W468/2435235" rel="nofollow"><img src="https://camo.githubusercontent.com/53e7363c25a4f7891aac74c70201dd33cbfb39667d7763436afcc748912d80a4/687474703a2f2f696d672e736869656c64732e696f2f62616467652f646f692d31302e313039332532466e6172253246676b753330312d626c75652e7376673f7374796c653d666c6174" alt="土井" data-canonical-src="http://img.shields.io/badge/doi-10.1093%2Fnar%2Fgku301-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/24753429" rel="nofollow"><img src="https://camo.githubusercontent.com/a73b4341d9e271aa498e3b9fc25fc8cb50026b9c8dd41ff8e14f80721df04373/687474703a2f2f696d672e736869656c64732e696f2f62616467652f7075626d65642d32343735333432392d626c75652e7376673f7374796c653d666c6174" alt="出版医学" data-canonical-src="http://img.shields.io/badge/pubmed-24753429-blue.svg?style=flat" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InterMine：一个灵活的数据仓库系统，用于异构生物数据的集成和分析。</font></font></strong><br>
+<em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">史密斯RN，阿莱克西克J，布塔诺D，卡尔A，孔特里诺S，胡F，莱恩M，莱恩R，Kalderimis A，卢瑟福K，斯蒂芬R，沙利文J，韦克林M，沃特金斯X，米克勒姆G。生物信息学（2012 </font></font></em> <br>
+<a href="http://bioinformatics.oxfordjournals.org/content/28/23/3163.abstract" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）28 (23)：3163-3165。</font></font></a> <br>
+<a href="http://bioinformatics.oxfordjournals.org/content/28/23/3163.abstract" rel="nofollow"><img src="https://camo.githubusercontent.com/7a9967a2b2baf36c974b7a998b80cc2c2c6b3e45ddb2ee87dc39672dafe6efde/687474703a2f2f696d672e736869656c64732e696f2f62616467652f646f692d31302e3130393325324662696f696e666f726d61746963732532466274733537372d626c75652e7376673f7374796c653d666c6174" alt="土井" data-canonical-src="http://img.shields.io/badge/doi-10.1093%2Fbioinformatics%2Fbts577-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23023984" rel="nofollow"><img src="https://camo.githubusercontent.com/b93d47472162bdf28a0df662d5177e69d1ad5ba13889705cd710a70d0b464c31/687474703a2f2f696d672e736869656c64732e696f2f62616467652f7075626d65642d32333032333938342d626c75652e7376673f7374796c653d666c6174" alt="出版医学" data-canonical-src="http://img.shields.io/badge/pubmed-23023984-blue.svg?style=flat" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 InterMine 出版物的完整列表，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://www.zotero.org/groups/2117194/intermine/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zotero 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
